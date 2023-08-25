@@ -27,7 +27,7 @@ const FeaturedProject=({type,title,summary,img,link ,github})=>{
                 className="w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full"
                 >
                     <FramerImage src={img} alt={title} className="w-full h-auto"
-                    whileHover={{scale:1.05}}
+                    whilehover={{scale:1.05}}
                     transition={{duration:0.5}}
                     />
                 </Link>
@@ -65,7 +65,7 @@ const Project=({type,title,img,link,github})=>{
             className="w-full overflow-hidden rounded-lg cursor-pointer"
             >
                  <FramerImage src={img} alt={title} className="w-full h-auto"
-                    whileHover={{scale:1.05}}
+                    whilehover={{scale:1.05}}
                     transition={{duration:0.5}}
                     />
             </Link>

@@ -7,7 +7,7 @@ const Skill=({name,x,y})=>{
             xs:text-dark xs:dark:text-light xs:font-bold 
             
             "
-            whileHover={{scale:1.2}}
+            whilehover={{scale:1.2}}
             initial={{x:0,y:0}}
             whileInView={{x:x,y:y}}
             transition={{duration:0.5}}
@@ -25,7 +25,7 @@ const Skills=()=>{
             lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]
             ">
             <motion.div className="flex items-center justify-center rounded-full font-semibold bg-dark text-light dark:bg-light dark:text-dark p-8 dark:shadow-light  shadow-dark cursor-pointer lg:p-6 md:p-4 xs:text-xs xs:p-2"
-            whileHover={{scale:1.2}}
+            whilehover={{scale:1.2}}
             >
                 Web
             </motion.div>

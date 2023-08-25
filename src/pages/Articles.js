@@ -65,7 +65,7 @@ const FeaturedArticle=({img,title,time,summary,link})=>{
                 className="w-full overflow-hidden rounded-lg cursor-pointer inline-block"
                 >
                     <FramerImage src={img} alt={title} className="w-full h-auto"
-                    whileHover={{scale:1.05}}
+                    whilehover={{scale:1.05}}
                     transition={{duration:0.2}}
                     />
                 </Link>
